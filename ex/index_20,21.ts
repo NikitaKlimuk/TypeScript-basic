@@ -70,7 +70,7 @@ interface Styles {
   [key: string]: string;
 }
 
-const styles = {
+const styles: Styles = {
   position: "absolute",
   top: "20px",
   left: "35px",
