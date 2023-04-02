@@ -19,3 +19,5 @@ let movement: boolean | string = false;
 if (isOkay) {
   movement = "moving";
 }
+
+export {};

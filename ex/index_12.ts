@@ -10,12 +10,14 @@ const test6: any = undefined;
 const test7: number = undefined;
 
 function getRandomData() {
-    if (Math.random() < 0.5) {
-        return null;
-    } else {
-        return "  Some data     ";
-    }
+  if (Math.random() < 0.5) {
+    return null;
+  } else {
+    return "  Some data     ";
+  }
 }
 
 const data = getRandomData();
 const trimmedData = data ? data.trim() : null;
+
+export {};
