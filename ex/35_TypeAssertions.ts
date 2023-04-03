@@ -26,3 +26,5 @@ box.style;
 box?.classList;
 
 // const someNumber: number = input.value as any as number; //double assertions, двойное утверждение типов
+
+export {};
