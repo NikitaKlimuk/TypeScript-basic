@@ -50,3 +50,5 @@ const nums: number[][] = [
 
 const [first] = report;
 console.log(report);
+
+export {};
