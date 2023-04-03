@@ -81,3 +81,5 @@ function isCar(car: Vehicle): car is Car {
 function isShip(ship: Vehicle): ship is Ship {
   return "sail" in ship;
 }
+
+export {};
