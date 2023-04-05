@@ -39,3 +39,5 @@ function tranformDepartment(department: Department, amount: number): Project {
 }
 
 const mainProject: Project = tranformDepartment(department, 4000);
+
+export {};
