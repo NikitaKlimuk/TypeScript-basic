@@ -57,3 +57,5 @@ const depositMoney2 = (amount: number | string): number | string => {
 depositMoney(500);
 depositMoney("500");
 // depositMoney(false); err with not number or string
+
+export {};
