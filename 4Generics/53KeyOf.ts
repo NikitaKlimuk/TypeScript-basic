@@ -27,3 +27,5 @@ const google = {
 };
 
 printDebts(google, "name", "open");
+
+export {};
